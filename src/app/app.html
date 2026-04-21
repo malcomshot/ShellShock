@@ -1,6 +1,13 @@
 <div class="page-container">
-<app-header />
+<mat-sidenav-container class="main-container" autosize  >
+    <mat-sidenav #sidenav class="example-sidenav" mode="side" [fixedInViewport]="true" [(opened)]="opened">
+        <app-menu />
+    </mat-sidenav>
+    <app-header (drawerToggle)="toggleNavMenu()" />
 
-<router-outlet />
-<app-footer class="footer-container"/>
+    <router-outlet />
+    <app-footer class="footer-container"/>
+</mat-sidenav-container>
+
+
 </div>

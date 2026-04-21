@@ -1,8 +1,11 @@
 .footer-container {
-    height: 50px;
+    height: auto;
     width: 100%;
     background-color: rgb(114, 180, 180);
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    margin: auto;
+}
+
+.temp-text {
+    margin: auto;
+    width: 30px;
 }
