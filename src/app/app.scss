@@ -5,11 +5,18 @@
     flex-direction: column;
 }
 
-.main-container {
+.nav-container {
     height: 100%;
     border: 1px solid rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
+}
+
+.main-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .example-sidenav-content {
@@ -19,6 +26,6 @@
   justify-content: center;
 }
 
-.example-sidenav {
+.sidenav {
   padding: 20px;
 }

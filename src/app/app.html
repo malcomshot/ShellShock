@@ -1,13 +1,13 @@
 <div class="page-container">
-<mat-sidenav-container class="main-container" autosize  >
-    <mat-sidenav #sidenav class="example-sidenav" mode="side" [fixedInViewport]="true" [(opened)]="opened">
-        <app-menu />
-    </mat-sidenav>
-    <app-header (drawerToggle)="toggleNavMenu()" />
+    <mat-sidenav-container class="nav-container" autosize>
+        <mat-sidenav #sidenav class="sidenav" mode="over" [fixedInViewport]="true" [(opened)]="opened">
+            <app-menu />
+        </mat-sidenav>
+        <div class="main-container">
+            <app-header (drawerToggle)="toggleNavMenu()" />
 
-    <router-outlet />
-    <app-footer class="footer-container"/>
-</mat-sidenav-container>
-
-
+            <router-outlet />
+            <app-footer class="footer-container"/>
+        </div>
+    </mat-sidenav-container>
 </div>
