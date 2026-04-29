@@ -1,1 +1,21 @@
-<p>video-container works!</p>
+<div class="video-card">
+    <div class="video-thumbnail" >
+        <p class="title-header">{{ title }}</p>
+        <p class="subtitle-header">{{ subtitle }}</p>
+        <a href="{{ buttonDestination }}" >
+            <p class="info-button">WATCH</p>
+        </a>
+    </div>
+    
+    <iframe 
+        class="video-frame"
+        [width]="width" 
+        [height]="height" 
+        [src]="sanitizeUrl(url + '?autoplay=1&mute=1&controls=0&loop=1&modestbranding=1&showinfo=0&disablekb=1')"
+        [title]="title" 
+        frameborder="0" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen
+        >
+    </iframe>
+</div>

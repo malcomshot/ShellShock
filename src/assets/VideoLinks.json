@@ -6,13 +6,5 @@
         "url": "https://www.youtube.com/embed/GUvuU5L_bd4",
         "height": 720,
         "width": 1280
-    },
-    {
-        "id": 2,
-        "title": "Video 2",
-        "subtitle": "An example video",
-        "url": "https://www.youtube.com/embed/yQ7jmTXwqOo",
-        "height": 720,
-        "width": 1280
     }
 ]

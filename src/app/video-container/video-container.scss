@@ -1,0 +1,42 @@
+.video-frame {
+    z-index: 1;
+    position: inherit;
+}
+
+.video-thumbnail {
+    position: absolute;
+    // width: 1280px;
+    // height: 720px;
+    width: 1280px;
+    height: 720px;
+    z-index: 2;
+}
+
+.info-button {
+    position: absolute;
+    padding: 25px 50px;
+    right: 10%;
+    bottom: 10%;
+    z-index: 3;
+    font-size: 3em;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.title-header {
+    left: 8%;
+    bottom: 10%;
+    font-size: 5em;
+    z-index: 3;
+    position: absolute;
+    color: white;
+}
+
+.subtitle-header {
+    left: 10%;
+    bottom: 10%;
+    z-index: 3;
+    position: absolute;
+    color: white;
+}

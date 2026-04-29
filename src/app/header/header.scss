@@ -1,12 +1,14 @@
 .header-container {
-    height: 50px;
+    height: 3em;
     width: 100%;
-    background-color: rgb(234, 239, 245);
+    color: white;
+    font-size: xx-large;
+    // background-color: rgba(0, 0, 0, 0.671);
     display: flex;
     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.5));
 
-    // position: absolute;
-    // top: 0;
+    position: fixed;
+    top: 0;
     // left: 0;
 }
 
