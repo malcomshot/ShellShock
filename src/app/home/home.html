@@ -1,0 +1,13 @@
+<div class="home-container">
+    @for (video of videos; track video.id) {
+        <app-video-container 
+        [url]="video.url" 
+        [title]="video.title" 
+        [buttonDestination]="video.buttonDestination"
+        [style]="video.style"
+        [width]="video.width"
+        [height]="video.height"
+        [subtitle]="video.subtitle"/>
+    }
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/yQ7jmTXwqOo?si" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+</div>

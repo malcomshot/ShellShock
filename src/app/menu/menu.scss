@@ -1,0 +1,30 @@
+.menu-container {
+    height: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-list {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    // margin-left: auto;
+    // margin-right: auto;
+    font-size: large;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.list-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
