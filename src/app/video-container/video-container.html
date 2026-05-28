@@ -1,0 +1,29 @@
+<div class="video-card">
+    <!-- <button style="padding-top: 200px" (click)="timer()">I AM A HUGE BUTTON</button> -->
+    <!-- <div class="loader" [ngStyle]="{'display': loadTiming()}"> -->
+        <div class="video-thumbnail" >
+            <p class="title-header">{{ title }}</p>
+            <p class="subtitle-header">{{ subtitle }}</p>
+            <a href="{{ buttonDestination }}" >
+                @if (style === textStyle) {
+                    <p class="info-button">ABOUT US</p>
+                } @else {
+                    <img class="logo-icon info-button" src="Icon\ShellShockLogo.png" />
+                }
+            </a>
+        <!-- </div> -->
+        <img class="loading-icon" src=""/>
+    </div>
+    
+    <iframe 
+        class="video-frame"
+        [width]="width" 
+        [height]="height" 
+        [src]="sanitizeUrl(url + '?autoplay=1&mute=1&controls=0&loop=1&showinfo=0&disablekb=1&iv_load_policy=3&playlist=FeQPaWFyiPE')"
+        [title]="title" 
+        frameborder="0" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen
+        >
+    </iframe>
+</div>

@@ -1,0 +1,54 @@
+.video-frame {
+    z-index: 1;
+    position: inherit;
+}
+
+.video-thumbnail {
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    z-index: 2;
+}
+
+.info-button {
+    position: absolute;
+    // padding: 50x 50px;
+    transform: skew(14deg);
+    height: 20px;
+    right: 10%;
+    bottom: 10%;
+    z-index: 3;
+    font-size: 3em;
+    background-color: white;
+    color: black;
+    // border-radius: 1000px;
+}
+
+.title-header {
+    left: 8%;
+    bottom: 10%;
+    font-size: 5em;
+    z-index: 3;
+    position: absolute;
+    color: white;
+}
+
+.subtitle-header {
+    left: 10%;
+    bottom: 10%;
+    z-index: 3;
+    position: absolute;
+    color: white;
+}
+
+.logo-icon {
+    width: 10%;
+    // height: 10%;
+}
+
+.loader {
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    background-color: black;
+}

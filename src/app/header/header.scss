@@ -1,8 +1,33 @@
 .header-container {
-    height: 50px;
+    height: 3em;
     width: 100%;
-    background-color: aqua;
-    position: absolute;
+    color: white;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.233);
+    display: flex;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.5));
+
+    position: fixed;
     top: 0;
+}
+
+.menu-button {
+    margin: auto 5px auto 5px;
+    position: fixed;
     left: 0;
+    margin-top: 5px;
+    background-color: rgb(234, 239, 245);
+}
+
+.menu-icon {
+   
+}
+
+.home-icon {
+    margin: auto;
+}
+
+.link-text {
+    color: white;
+    text-decoration: none;
 }
