@@ -3,7 +3,7 @@
     width: 100%;
     color: white;
     font-size: xx-large;
-    // background-color: rgba(0, 0, 0, 0.671);
+    background-color: rgba(0, 0, 0, 0.233);
     display: flex;
     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.5));
 
@@ -25,4 +25,9 @@
 
 .home-icon {
     margin: auto;
+}
+
+.link-text {
+    color: white;
+    text-decoration: none;
 }

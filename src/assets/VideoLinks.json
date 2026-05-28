@@ -1,9 +1,11 @@
 [
     {
         "id": 1,
-        "title": "Video 1",
+        "title": "SHELL SHOCK",
         "subtitle": "An example video",
-        "url": "https://www.youtube.com/embed/GUvuU5L_bd4",
+        "url": "https://www.youtube.com/embed/FeQPaWFyiPE",
+        "buttonDestination": "/about",
+        "style": "text",
         "height": 720,
         "width": 1280
     }
