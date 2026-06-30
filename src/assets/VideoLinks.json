@@ -3,9 +3,19 @@
         "id": 1,
         "title": "SHELL SHOCK",
         "subtitle": "An example video",
-        "url": "https://www.youtube.com/embed/FeQPaWFyiPE",
+        "url": "https://www.youtube.com/embed/Pus9h-qx0CM",
         "buttonDestination": "/about",
         "style": "text",
+        "height": 720,
+        "width": 1280
+    },
+    {
+        "id": 2,
+        "title": "Mission Avenue",
+        "subtitle": "An example video",
+        "url": "https://www.youtube.com/embed/Pus9h-qx0CM",
+        "buttonDestination": "https://www.instagram.com/mission__avenue?igsh=MzRlODBiNWFlZA==",
+        "style": "button",
         "height": 720,
         "width": 1280
     }
